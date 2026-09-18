@@ -87,3 +87,9 @@ JAVAPROJECTVITYARTHI/
 │
 ├── README.md
 └── statement.md
+## Instructions for Testing
+
+1. Compile the project using the Java compiler:
+
+```text
+javac -d out src\model\Question.java src\model\Result.java src\service\FileManager.java src\service\QuestionBank.java src\service\Quiz.java src\service\ResultManager.java src\Main.java
