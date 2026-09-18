@@ -85,15 +85,20 @@ JAVAPROJECTVITYARTHI/
 │   ├── results.txt
 │   └── wrong_questions.txt
 │
+├── docs/
+│   ├── architecture.png
+│   ├── workflow.png
+│   ├── use_case.png
+│   ├── class_diagram.png
+│   ├── sequence_diagram.png
+│   ├── storage_design.png
+│   └── ExamPrep_Project_Report.pdf
+│
 ├── README.md
-└── statement.md
-...
-## Instructions for Testing
+├── statement.md
+└── .gitignore
+```
 
-1. Compile the project using the Java compiler:
-
-```text
-javac -d out src\model\Question.java src\model\Result.java src\service\FileManager.java src\service\QuestionBank.java src\service\Quiz.java src\service\ResultManager.java src\Main.java
 ## Main Classes
 
 ### Main.java
@@ -130,11 +135,15 @@ Open a terminal in the project root directory and run:
 
 ```bash
 javac -d out src\model\Question.java src\model\Result.java src\service\FileManager.java src\service\QuestionBank.java src\service\Quiz.java src\service\ResultManager.java src\Main.java
+```
+
 ## How to Run
 
 After compilation, run:
 
+```bash
 java -cp out Main
+```
 
 ## Admin Access
 
@@ -154,7 +163,9 @@ The application uses text files for data storage:
 
 Questions are stored using the following format:
 
+```text
 ID|Question|OptionA|OptionB|OptionC|OptionD|CorrectAnswer|Subject|Module|Difficulty
+```
 
 ## Functional Modules
 
@@ -192,7 +203,7 @@ Provides password-protected question management.
 
 ## Error Handling
 
-The application handles invalid user input, invalid menu selections, and file-reading/writing errors.
+The application handles invalid user input, invalid menu selections, and file-reading and file-writing errors.
 
 ## Future Enhancements
 
