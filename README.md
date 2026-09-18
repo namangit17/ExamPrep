@@ -64,7 +64,7 @@ The question bank contains 800 questions, with 200 questions for each subject.
 
 ## Project Structure
 
-```text
+text
 JAVAPROJECTVITYARTHI/
 │
 ├── src/
@@ -86,12 +86,12 @@ JAVAPROJECTVITYARTHI/
 │   └── wrong_questions.txt
 │
 ├── README.md
-└── statement.md
+└── statement.md 
 ## Instructions for Testing
 
 1. Compile the project using the Java compiler:
 
-```text
+text
 javac -d out src\model\Question.java src\model\Result.java src\service\FileManager.java src\service\QuestionBank.java src\service\Quiz.java src\service\ResultManager.java src\Main.java
 ## Main Classes
 
