@@ -86,7 +86,8 @@ JAVAPROJECTVITYARTHI/
 │   └── wrong_questions.txt
 │
 ├── README.md
-└── statement.md 
+└── statement.md
+
 ## Instructions for Testing
 
 1. Compile the project using the Java compiler:
